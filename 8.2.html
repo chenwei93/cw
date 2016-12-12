@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3*3格子</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .container{
+            width: 170px;
+            height: 170px;
+            border: 1px solid #000000;
+            overflow: hidden;
+            margin:50px auto;
+        }
+        .ul_list{
+            position: relative;
+            list-style: none;
+        }
+        li{
+            position: absolute;
+            background-color: darkgray;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            color: red;
+        }
+        .cell-1{
+            top:5px;
+            left:5px;
+        }
+        .cell-1:hover{
+            top:0;
+            left:0;
+        }
+        .cell-2{
+            top:5px;
+            left:60px;
+        }
+        .cell-2:hover{
+            top:0px;
+            left:55px;
+        }
+        .cell-3{
+            top:5px;
+            left:115px;
+        }
+        .cell-3:hover{
+            top:0px;
+            left:110px;
+        }
+        .cell-4{
+            top:60px;
+            left:5px;
+        }
+        .cell-4:hover{
+            top:55px;
+            left:0px;
+        }
+        .cell-5{
+            top:60px;
+            left:60px;
+        }
+        .cell-5:hover{
+            top:55px;
+            left:55px;
+        }
+        .cell-6{
+            top:60px;
+            left:115px;
+        }
+        .cell-6:hover{
+            top:55px;
+            left:110px;
+        }
+        .cell-7{
+            top:115px;
+            left:5px;
+        }
+        .cell-7:hover{
+            top:110px;
+            left:0px;
+        }
+        .cell-8{
+            top:115px;
+            left:60px;
+        }
+        .cell-8:hover{
+            top:110px;
+            left:55px;
+        }
+        .cell-9{
+            top:115px;
+            left:115px;
+        }
+        .cell-9:hover{
+            top:110px;
+            left:110px;
+        }
+        li:hover{
+            border: 5px solid red;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <ul class="ul_list">
+        <li class="cell-1">1</li>
+        <li class="cell-2">2</li>
+        <li class="cell-3">3</li>
+        <li class="cell-4">4</li>
+        <li class="cell-5">5</li>
+        <li class="cell-6">6</li>
+        <li class="cell-7">7</li>
+        <li class="cell-8">8</li>
+        <li class="cell-9">9</li>
+    </ul>
+</div>
+</body>
+</html>
